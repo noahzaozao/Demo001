@@ -17,8 +17,8 @@ Loader.shared.load((info: any, resources: any) => {
     image.x = 100
     image.y = 100
     stage.addChild(image)
-    
-    setInterval(function(){
+
+    setInterval(function () {
         image.rotation += 0.05
     }, 20)
 })
